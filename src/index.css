@@ -8,3 +8,18 @@ body {
   background-attachment: fixed;
   font-family: Arial, sans-serif;
 }
+@media (max-width: 768px) {
+  .navbar-menu {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .contact-section {
+    padding: 20px;
+  }
+
+  .social-media a {
+    font-size: 20px;
+  }
+}
