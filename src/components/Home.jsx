@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Home.css';
-import profileImage from '../images/Yo.png';
+import profileImage from '../images/Yo2.png';
 
 const Home = () => {
   return (
