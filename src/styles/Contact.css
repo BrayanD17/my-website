@@ -1,12 +1,12 @@
 .contact-section {
-    padding: 40px;
+    padding: 20px;
     color: white;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.7);
 }
 
-h2 {
-    font-size: 36px;
+.contact-section h2 {
+    font-size: 28px; /* Reduzco el tamaño del título para móviles */
     color: #00D1FF;
     margin-bottom: 20px;
 }
@@ -23,7 +23,7 @@ h2 {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 18px;
+    font-size: 16px; /* Ajusto la fuente para pantallas pequeñas */
 }
 
 .contact-item a {
@@ -33,13 +33,13 @@ h2 {
 .social-media {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 15px; /* Reducir espacio entre iconos en móviles */
     margin-top: 20px;
 }
 
 .social-media a {
     color: white;
-    font-size: 30px;
+    font-size: 25px; /* Disminuir iconos en móviles */
     transition: color 0.3s;
 }
 
@@ -49,4 +49,45 @@ h2 {
 
 .cv-preview {
     margin-top: 40px;
+}
+
+.cv-preview iframe {
+    width: 100%;
+    height: 800px; /* Reducir altura en móviles */
+}
+
+@media (max-width: 768px) {
+    .contact-section h2 {
+        font-size: 24px;
+    }
+
+    .contact-item {
+        font-size: 14px;
+    }
+
+    .social-media a {
+        font-size: 22px;
+    }
+
+    .cv-preview iframe {
+        height: 600px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-section h2 {
+        font-size: 20px;
+    }
+
+    .contact-item {
+        font-size: 12px;
+    }
+
+    .social-media a {
+        font-size: 20px;
+    }
+
+    .cv-preview iframe {
+        height: 500px;
+    }
 }

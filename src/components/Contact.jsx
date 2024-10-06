@@ -34,7 +34,7 @@ const Contact = () => {
 
       {/* Vista previa del PDF */}
       <div className="cv-preview">
-        <iframe src={CV} width="100%" height="1200px" type="application/pdf" title="CV Preview"></iframe>
+        <iframe src={CV} type="application/pdf" title="CV Preview"></iframe>
       </div>
     </section>
   );
