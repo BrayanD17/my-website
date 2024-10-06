@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/my-website/static/css/main.cd48fa46.css",
+    "main.js": "/my-website/static/js/main.38888ed9.js",
+    "static/js/453.195b869a.chunk.js": "/my-website/static/js/453.195b869a.chunk.js",
+    "static/media/GymHubIcon.png": "/my-website/static/media/GymHubIcon.012aa057b1337cfd071e.png",
+    "static/media/fondolaptop.jpg": "/my-website/static/media/fondolaptop.cbe526ede6511729b0b7.jpg",
+    "static/media/Yo.png": "/my-website/static/media/Yo.50989648e02ef8abe202.png",
+    "static/media/postcardIcon.jpg": "/my-website/static/media/postcardIcon.530a9d470f4c925eb197.jpg",
+    "static/media/snakeIcon.jpg": "/my-website/static/media/snakeIcon.8b7b73f028069843b560.jpg",
+    "static/media/CV English Brayan Gutiérrez Dinarte.pdf": "/my-website/static/media/CV English Brayan Gutiérrez Dinarte.75f60c6a2aec47c1f220.pdf",
+    "static/media/SQLIcon.png": "/my-website/static/media/SQLIcon.718a427b87f7db0607b4.png",
+    "static/media/DrRacketIcon.png": "/my-website/static/media/DrRacketIcon.0f80492034ac9e356fe4.png",
+    "static/media/JavaIcon.png": "/my-website/static/media/JavaIcon.51c91d24abdf9ba1e716.png",
+    "static/media/PostgreIcon.png": "/my-website/static/media/PostgreIcon.330884e1a0af061180ec.png",
+    "static/media/PycharmIcon.png": "/my-website/static/media/PycharmIcon.72d4189da8230d9dd4dc.png",
+    "static/media/ReactIcon.png": "/my-website/static/media/ReactIcon.9b7555d0232a2a8dabf9.png",
+    "static/media/CSSIcon.png": "/my-website/static/media/CSSIcon.9939b82e13cbd0846122.png",
+    "static/media/HTMLIcon.png": "/my-website/static/media/HTMLIcon.069ae643f86e8c69d89c.png",
+    "index.html": "/my-website/index.html",
+    "main.cd48fa46.css.map": "/my-website/static/css/main.cd48fa46.css.map",
+    "main.38888ed9.js.map": "/my-website/static/js/main.38888ed9.js.map",
+    "453.195b869a.chunk.js.map": "/my-website/static/js/453.195b869a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd48fa46.css",
+    "static/js/main.38888ed9.js"
+  ]
+}
