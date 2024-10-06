@@ -1,0 +1,144 @@
+/* Estilo general de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #1c1c1c;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+/* Logo a la izquierda */
+.navbar-logo {
+    flex: 1;
+    text-align: left;
+}
+
+.navbar-name {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    background: linear-gradient(90deg, #007BFF, #0056b3);
+    -webkit-background-clip: text;
+    color: transparent;
+    transition: all 0.4s ease;
+    animation: breathe 3s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+}
+
+/* Menú centrado */
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex: 2;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+/* Ajustes de márgenes */
+.navbar-item {
+    margin: 0 10px;
+}
+
+/* Estilos para los botones del menú */
+.navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    padding: 5px 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.4s ease;
+    overflow: hidden;
+}
+
+.navbar-link:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: #00D1FF;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.4s ease;
+}
+
+.navbar-link:hover:before {
+    width: 100%;
+}
+
+.navbar-link:hover {
+    color: #00D1FF;
+    transition: color 0.4s ease;
+}
+
+/* Botón a la derecha */
+.bottom-cv {
+    flex: 1;
+    text-align: right;
+}
+
+.cv-button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    z-index: 1;
+}
+
+.cv-button:before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.3), transparent);
+    transition: all 0.4s ease;
+    z-index: 0;
+    transform: rotate(45deg);
+}
+
+.cv-button:hover:before {
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 300%;
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.6), transparent);
+}
+
+.cv-button:hover {
+    background-color: #0056b3;
+    color: #fff;
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.7), 0 0 25px rgba(0, 123, 255, 0.5);
+    transform: scale(1.1);
+}
+
+.cv-button:active {
+    transform: scale(0.95);
+    background-color: #004494;
+}
