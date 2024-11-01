@@ -1,0 +1,33 @@
+.language-selector {
+    display: flex;
+    justify-content: flex-end; /* Alinea el selector a la derecha */
+    align-items: center;
+    margin-left: auto; /* Empuja el selector hacia la derecha */
+}
+
+.react-flags-select {
+    background-color: #1c1c1c; /* Fondo del selector */
+    color: #ffffff; /* Color del texto */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    appearance: none; /* Quita el estilo predeterminado del select */
+}
+
+.react-flags-select:hover {
+    background-color: #2a2a2a; /* Cambio de color al pasar el mouse */
+}
+
+.react-flags-select .flag-select__option {
+    background-color: #1c1c1c;
+    color: #ffffff;
+}
+
+.flag-icon {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    vertical-align: middle;
+}
